@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: Patrican;
+  
+ 
+}
+
+code {
+   font-family:"Patrican";
+    /* font-family: "Calvino";
+    src: local("Calvino"),
+     url("./markup/fonts/calvino/Calvino-Grande-Regular-trial.ttf") format("truetype");
+    font-weight: bold; */
+}
+
+ @font-face {
+  font-family: "Patrican";
+  src: local("Patrican"),
+   url("./markup/fonts/Patrican.ttf") format("truetype");
+  font-weight: bold; }
+  
+
+  
