@@ -528,7 +528,7 @@ const Services2 = () => {
                           -	100% Foreign Ownership 
                           </li>
                           <li className="list-group-item whitebackground text-dark">
-                          -	Wide Rnge Of Business Activities
+                          -	Wide Range Of Business Activities
                           </li>
                           <li className="list-group-item whitebackground text-dark">
                           -	Fewer Nationalities Restrictions

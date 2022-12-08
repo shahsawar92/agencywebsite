@@ -7,27 +7,27 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 
 const slides = [
-    {
-        title: '',
-        btnLearn: "-- Learn More --",
-        finan: " Corporate Services Solutions",
-        dox: " Made Easy",
-        btnService: "Our Services",
-        image: require('./../../assets/images/Images/slide1.jpg'),    },
-    {
-        title: '',
-        btnLearn: "-- Learn More --",
-        finan: "Corporate Services Solutions ",
-        dox: "Made Easy",
-        btnService: "Our Services",
-        image: require('./../../assets/images/Images/slide2.jpg'),    },
+    // {
+    //     title: '',
+    //     btnLearn: "-- Learn More --",
+    //     finan: " Corporate Services Solutions",
+    //     dox: " Made Easy",
+    //     btnService: "Our Services",
+    //     image: require('./../../assets/images/Images/image-1.jpg'),    },
     {
         title: '',
         btnLearn: "-- Learn More --",
         finan: "Corporate Services Solutions ",
         dox: "Made Easy",
         btnService: "Our Services",
-        image: require('./../../assets/images/Images/slide3.jpg'),    },
+        image: require('./../../assets/images/Images/slide2a.png'),    },
+    {
+        title: '',
+        btnLearn: "-- Learn More --",
+        finan: "Corporate Services Solutions ",
+        dox: "Made Easy",
+        btnService: "Our Services",
+        image: require('./../../assets/images/Images/slide3a.png'),    },
 
 ];
 
@@ -52,7 +52,7 @@ const HomeSlider2 =()=> {
             <>
                 <Slider className={!isMobile ? "slider-wrapper" : "slider-wrapper-hidden"}  >
                     {slides.map((slide, index) =>
-                        <div key={index} className="slider-content" style={{ background: `url('${slide.image}') no-repeat center center` }}>
+                        <div key={index} className="slider-content" style={{ background: `url('${slide.image}') no-repeat center center`,paddingTop:"30px" }}>
                             <div className="inner text-center inner-2">
                              
                                 <h2>{slide.finan} <span className='bluecolor'>{slide.dox} </span></h2>

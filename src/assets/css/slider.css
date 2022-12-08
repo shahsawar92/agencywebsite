@@ -129,11 +129,39 @@
 
 /* Home Slider */
 
+@media only screen and (min-width: 1400px) {
+	.slider-wrapper {
+		position: relative;
+		overflow: hidden;
+		height  : 1000px !important;
+		margin-top: 106px !important;
+	}
+
+	.slide {
+		height         : 100% !important;
+		background-size: cover !important;
+	}
+  }
+
+  @media only screen and (min-width: 1900px) {
+	.slider-wrapper {
+		position: relative;
+		overflow: hidden;
+		height  : 1060px !important;
+		margin-top: 106px !important;
+	}
+
+	.slide {
+		height         : 100% !important;
+		background-size: cover !important;
+	}
+  }
 
 .slider-wrapper {
 	position: relative;
 	overflow: hidden;
 	height  : 900px;
+	margin-top: 106px !important;
 }
 
 .slider-wrapper-hidden{
